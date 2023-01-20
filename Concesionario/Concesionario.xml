@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE Concesionario SYSTEM "Concesionario.dtd.">
+<!--Concesionario xmlns:xsi="http:/>/>www.w3.org/>2001/>XMLSchema-instance" xsi:nomNamespaceSchemaLocation="Concesionario.xsd"-->
+<Concesionario>    
+    <Coche>
+        <Código_de_coche>123654</Código_de_coche>
+        <Marca>Tesla</Marca>
+        <Modelo>Model S</Modelo>
+        <Matrícula>6546 CTP</Matrícula>
+        <Potencia>350CV</Potencia>
+        <Plazas>5</Plazas>
+        <Número_de_puertas>5</Número_de_puertas>
+    </Coche>
+</Concesionario>

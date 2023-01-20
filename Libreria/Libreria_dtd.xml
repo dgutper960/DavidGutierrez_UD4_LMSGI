@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE Libreria SYSTEM "Libreria.dtd">
+<!--Libreria xmlns:xsi="http:/>/>www.w3.org/>2001/>XMLSchema-instance" xsi:nomNamespaceSchemaLocation="Libreria.xsd"-->
+<Libreria>    
+    <Libro>
+        <Codigo_de_libro>895652635</Codigo_de_libro>
+        <Titulo>Los Habladores</Titulo>
+        <Editorial>Ficticia</Editorial>
+        <Edicion>01-01-2006</Edicion>
+        <ISBN>978-968-5382-37</ISBN>
+        <Numero_de_paginas>876</Numero_de_paginas>
+        <Autor>David Olguín</Autor>
+    </Libro>
+    <Libro>
+        <Codigo_de_libro>5544332211</Codigo_de_libro>
+        <Titulo>Zombi: Guía de supervivencia</Titulo>
+        <Editorial>DEBOLSILLO</Editorial>
+        <Edicion>05-11-2015</Edicion>
+        <ISBN>978-8490627600</ISBN>
+        <Numero_de_paginas>352</Numero_de_paginas>
+        <Autor>Max Brooks</Autor>
+    </Libro>
+    <Libro>
+        <Codigo_de_libro>963252641</Codigo_de_libro>
+        <Titulo>Sevilla pa Tiesos</Titulo>
+        <Editorial>Klaus Editions</Editorial>
+        <Edicion>18-08-2009</Edicion>
+        <ISBN>256-456-4852-46</ISBN>
+        <Numero_de_paginas>800</Numero_de_paginas>
+        <Autor>Klaus Shwstaiguer</Autor>
+    </Libro>
+    <Libro>
+        <Codigo_de_libro>569823450</Codigo_de_libro>
+        <Titulo>Los Misterios del Universo</Titulo>
+        <Editorial>Ediciones Estupendas</Editorial>
+        <Edicion>02-11-2022</Edicion>
+        <ISBN>252-456-5863-41</ISBN>
+        <Numero_de_paginas>1801</Numero_de_paginas>
+        <Autor>Iker Jimenez</Autor>
+    </Libro>
+    <Libro>
+        <Codigo_de_libro>596312356</Codigo_de_libro>
+        <Titulo>El Arte de las estafas Piramidales</Titulo>
+        <Editorial>Ediciones Estupendas</Editorial>
+        <Edicion>30-02-2023</Edicion>
+        <ISBN>123-456-78910-44</ISBN>
+        <Numero_de_paginas>2821</Numero_de_paginas>
+        <Autor>Troy McClure</Autor>
+    </Libro>
+    <Libro>
+        <Codigo_de_libro>5523695</Codigo_de_libro>
+        <Titulo>Los Molinos de Don Quijote</Titulo>
+        <Editorial>Ediciones Chinescas</Editorial>
+        <Edicion>30-12-1999</Edicion>
+        <ISBN>123-456-78610-41</ISBN>
+        <Numero_de_paginas>5693</Numero_de_paginas>
+        <Autor>Xun Fujishan</Autor>
+    </Libro>
+    <Libro>
+        <Codigo_de_libro>9365412</Codigo_de_libro>
+        <Titulo>Misterios de la Magia Oscura</Titulo>
+        <Editorial>Slytherin Books</Editorial>
+        <Edicion>03-03-1953</Edicion>
+        <ISBN>123-45a-4563-44</ISBN>
+        <Numero_de_paginas>1596</Numero_de_paginas>
+        <Autor>Tom Ridel</Autor>
+    </Libro>
+    <Libro>
+        <Codigo_de_libro>9961026</Codigo_de_libro>
+        <Titulo>The Simpson Book</Titulo>
+        <Editorial>Quetelocrees Editors</Editorial>
+        <Edicion>01-02-2002</Edicion>
+        <ISBN>123-9381-78910-44</ISBN>
+        <Numero_de_paginas>333</Numero_de_paginas>
+        <Autor>Fox Century</Autor>
+    </Libro>
+    <Libro>
+        <Codigo_de_libro>4466339988</Codigo_de_libro>
+        <Titulo>illo pare que... que te cuenta?</Titulo>
+        <Editorial>Ediciones Los Jerezes</Editorial>
+        <Edicion>01-10-2012</Edicion>
+        <ISBN>123-456-78910-44</ISBN>
+        <Numero_de_paginas>121</Numero_de_paginas>
+        <Autor>Tomasito</Autor>
+    </Libro>
+    <Libro>
+        <Codigo_de_libro>1234567897</Codigo_de_libro>
+        <Titulo>Descripciones Alucinantes</Titulo>
+        <Editorial>Ediciones Estupendas</Editorial>
+        <Edicion>30-11-2000</Edicion>
+        <ISBN>123-321-8652-44</ISBN>
+        <Numero_de_paginas>2821</Numero_de_paginas>
+        <Autor>Gazpacho de los Fruitis</Autor>
+    </Libro>
+</Libreria>

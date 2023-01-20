@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE Concesionario SYSTEM "Concesionario.dtd.">
+<!--Concesionario xmlns:xsi="http:/>/>www.w3.org/>2001/>XMLSchema-instance" xsi:nomNamespaceSchemaLocation="Concesionario.xsd"-->
+<Concesionario>    
+    <Coche>
+        <Código_de_coche>123654</Código_de_coche>
+        <Marca>Tesla</Marca>
+        <Modelo>Model S</Modelo>
+        <Matrícula>6546 CTP</Matrícula>
+        <Potencia>350CV</Potencia>
+        <Plazas>5</Plazas>
+        <Número_de_puertas>5</Número_de_puertas>
+    </Coche>
+    <Coche>
+        <Código_de_coche>00001</Código_de_coche>
+        <Marca>Benz Patent</Marca>
+        <Modelo>Motorwagen</Modelo>
+        <Matrícula>0001 AAA</Matrícula>
+        <Potencia>0'7CV</Potencia>
+        <Plazas>2</Plazas>
+        <Número_de_puertas>0</Número_de_puertas>
+    </Coche>
+    <Coche>
+        <Código_de_coche>00563</Código_de_coche>
+        <Marca>Ford</Marca>
+        <Modelo>Model T</Modelo>
+        <Matrícula>8943 KWO</Matrícula>
+        <Potencia>20CV</Potencia>
+        <Plazas>4</Plazas>
+        <Número_de_puertas>2</Número_de_puertas>
+    </Coche>   
+    <Coche>
+        <Código_de_coche>334891</Código_de_coche>
+        <Marca>Buccialli</Marca>
+        <Modelo>TAV-6</Modelo>
+        <Matrícula>3469 QWE</Matrícula>
+        <Potencia>120CV</Potencia>
+        <Plazas>5</Plazas>
+        <Número_de_puertas>4</Número_de_puertas>
+    </Coche>  
+    <Coche>
+        <Código_de_coche>0260455</Código_de_coche>
+        <Marca>Mercedes-Benz </Marca>
+        <Modelo>260 D</Modelo>
+        <Matrícula>2356 QVD</Matrícula>
+        <Potencia>45CV</Potencia>
+        <Plazas>5</Plazas>
+        <Número_de_puertas>5</Número_de_puertas>
+    </Coche>   
+    <Coche>
+        <Código_de_coche>123654</Código_de_coche>
+        <Marca>Benz Patent</Marca>
+        <Modelo>Motorwagen</Modelo>
+        <Matrícula>6546 CTP</Matrícula>
+        <Potencia>0'7CV</Potencia>
+        <Plazas>2</Plazas>
+        <Número_de_puertas>0</Número_de_puertas>
+    </Coche>   
+    <Coche>
+        <Código_de_coche>56856</Código_de_coche>
+        <Marca>Saab</Marca>
+        <Modelo>900</Modelo>
+        <Matrícula>3132 LPS</Matrícula>
+        <Potencia>160CV</Potencia>
+        <Plazas>5</Plazas>
+        <Número_de_puertas>3</Número_de_puertas>
+    </Coche>   
+    <Coche>
+        <Código_de_coche>369845</Código_de_coche>
+        <Marca>Alfa Romeo</Marca>
+        <Modelo>164 TD</Modelo>
+        <Matrícula>6584 CTR</Matrícula>
+        <Potencia>125CV</Potencia>
+        <Plazas>5</Plazas>
+        <Número_de_puertas>5</Número_de_puertas>
+    </Coche>   <Coche>
+        <Código_de_coche>999999</Código_de_coche>
+        <Marca>Toyota</Marca>
+        <Modelo>Prius Plus</Modelo>
+        <Matrícula>0341 CHC</Matrícula>
+        <Potencia>136 CV</Potencia>
+        <Plazas>7</Plazas>
+        <Número_de_puertas>5</Número_de_puertas>
+    </Coche>   <Coche>
+        <Código_de_coche>15957535</Código_de_coche>
+        <Marca>Toyota</Marca>
+        <Modelo>Corolla</Modelo>
+        <Matrícula>4103 HCH</Matrícula>
+        <Potencia>122 CV</Potencia>
+        <Plazas>5</Plazas>
+        <Número_de_puertas>5</Número_de_puertas>
+    </Coche> 
+</Concesionario>

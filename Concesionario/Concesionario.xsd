@@ -1,0 +1,21 @@
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="Concesionario">
+      <xs:complexType>
+        <xs:sequence>
+            <xs:element name="Coche" maxOccurs="unbounded">
+              <xs:complexType>
+                <xs:sequence>
+                    <xs:element name="Código_de_coche" type="xs:integer"/>
+                    <xs:element name="Marca" type="xs:string"/>
+                    <xs:element name="Modelo" type="xs:string"/>
+                    <xs:element name="Matrícula" type="xs:integer"/>
+                    <xs:element name="Potencia" type="xs:integer"/>
+                    <xs:element name="Plazas" type="xs:integer"/>
+                    <xs:element name="Número_de_puertas" type="xs:string"/>
+                </xs:sequence>
+              </xs:complexType>  
+            </xs:element>
+        </xs:sequence>
+      </xs:complexType>  
+    </xs:element>
+</xs:schema>
