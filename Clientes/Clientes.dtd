@@ -1,0 +1,10 @@
+<!ELEMENT Clientes (Cliente*)>
+<!ELEMENT Cliente (Sede, Código_de_cliente, Número_viviendas, Coste_viviendas, Resumen, Plazo_alta)>
+<!ELEMENT Sede (#PCDATA)>
+<!ELEMENT Código_de_cliente (#PCDATA)>
+<!ELEMENT Número_viviendas (#PCDATA)>
+<!ELEMENT Coste_viviendas (#PCDATA)>
+<!ELEMENT Resumen (#PCDATA)>
+<!ELEMENT Plazo_alta (#PCDATA)>
+
+<!-- Modificar a la estuctura propuesta-->
