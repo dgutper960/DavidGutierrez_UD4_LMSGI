@@ -8,10 +8,10 @@
                     <xs:element name="Código_de_coche" type="xs:integer"/>
                     <xs:element name="Marca" type="xs:string"/>
                     <xs:element name="Modelo" type="xs:string"/>
-                    <xs:element name="Matrícula" type="xs:integer"/>
-                    <xs:element name="Potencia" type="xs:integer"/>
+                    <xs:element name="Matrícula" type="xs:string"/>
+                    <xs:element name="Potencia" type="xs:string"/>
                     <xs:element name="Plazas" type="xs:integer"/>
-                    <xs:element name="Número_de_puertas" type="xs:string"/>
+                    <xs:element name="Número_de_puertas" type="xs:integer"/>
                 </xs:sequence>
               </xs:complexType>  
             </xs:element>
