@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!--DOCTYPE Clientes SYSTEM "Clientes.dtd"-->
+<Clientes>
+    <Sede codigo="A4569632">
+		<Dirección>Calle Atapuerca, 5, Planta Baja</Dirección>
+		<Empleado>Rodrigo Diaz de Vivar</Empleado>
+		<Fecha_alta>22/04/1997</Fecha_alta>
+		<Descripción>Lo que quiera que sea será</Descripción>
+		<Cliente codigo="BGO-111">
+	  		<Num_viviendas>4</Num_viviendas>
+	  		<Coste>900</Coste>
+	  		<Resumen>Las Casas Bonitas</Resumen>
+	  		<Plazo_alta>23/01/23</Plazo_alta>
+		</Cliente>
+    </Sede>
+</Clientes>

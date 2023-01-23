@@ -1,10 +1,12 @@
 <!ELEMENT Clientes (Sede*)>
-<!ELEMENT Sede (Dirección*, Empleado, Fecha_alta, Descripción, Cliente)>
+<!ELEMENT Sede (Dirección, Empleado, Fecha_alta, Descripción, Cliente)>
+<!ATTLIST Sede codigo CDATA #REQUIRED>
 <!ELEMENT Dirección (#PCDATA)>
 <!ELEMENT Empleado (#PCDATA)>
 <!ELEMENT Fecha_alta (#PCDATA)>
 <!ELEMENT Descripción (#PCDATA)>
 <!ELEMENT Cliente (Num_viviendas, Coste, Resumen, Plazo_alta)>
+<!ATTLIST Cliente codigo ID #REQUIRED>
 <!ELEMENT Num_viviendas (#PCDATA)>
 <!ELEMENT Coste (#PCDATA)>
 <!ELEMENT Resumen (#PCDATA)>
