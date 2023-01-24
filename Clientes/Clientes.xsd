@@ -1,20 +1,28 @@
 <xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
-    <xs:element name="Clientes" type="clientesDatos">
-        <xs:complexType name="clientesDatos">
-            <xs:sequence>
-                <xs:element name="sede" type="SedeDatos" minOccurs="1" maxOccurs="unbounded" >
-
+    <xs:element name="Clientes">
+      <xs:complexType>
+        <xs:sequence>
+          <xs:element name="Sede" minOccurs="1" maxOccurs="unbounded">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="Dirección" type="xs:string"></xs:element>
+                <xs:element name="Empleado" type="xs:string"></xs:element>
+                <xs:element name="Fecha_alta" type="xs:date"></xs:element>
+                <xs:element name="Descrición" type="xs:string"></xs:element>
+                <xs:element name="Cliente" minOccurs="1" maxOccurs="unbounded">
+                  <xs:complexType>
+                    <xs:sequence>
+                      <xs:element name="Num_viviendas" type="xs:int"></xs:element>
+                      <xs:element name="Coste" type="xs:integer"></xs:element>
+                      <xs:element name="Resumen" type="xs:string"></xs:element>
+                      <xs:element name="Plazo_alta" type="xs:date"></xs:element>
+                    </xs:sequence>
+                  </xs:complexType>
                 </xs:element>
-            </xs:sequence> 
-        </xs:complexType>
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:sequence>
+      </xs:complexType>
     </xs:element>
 </xs:schema>
-
-<xs:complexType name="SedeDatos">
-    <xs:sequence>
-        <xs:element name="dirección" type="xs:string"></xs:element>
-        <sx:elemnt name="cliente" type="ClienteDatos"></sx:elemnt>
-        <xs:atribute name="codigo" type="codigoSede"></xs:element>
-        <xs:element name="Resumen" type="xs:SedeDatos"></xs:element>
-    </xs:sequence>
-</xs:complexType>
