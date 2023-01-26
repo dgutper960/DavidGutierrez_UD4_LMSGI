@@ -1,0 +1,13 @@
+<!ELEMENT Clientes (Sede)>
+<!ELEMENT Sede (Dirección,Empleado,Fecha_alta,Descripción,Cliente)>
+<!ATTLIST Sede codigo NMTOKEN #REQUIRED>
+<!ELEMENT Direcci ón (#PCDATA)>
+<!ELEMENT Empleado (#PCDATA)>
+<!ELEMENT Fecha_alta (#PCDATA)>
+<!ELEMENT Descripci ón (#PCDATA)>
+<!ELEMENT Cliente (Num_viviendas,Coste,Resumen,Plazo_alta)>
+<!ATTLIST Cliente codigo NMTOKEN #REQUIRED>
+<!ELEMENT Num_viviendas (#PCDATA)>
+<!ELEMENT Coste (#PCDATA)>
+<!ELEMENT Resumen (#PCDATA)>
+<!ELEMENT Plazo_alta (#PCDATA)>

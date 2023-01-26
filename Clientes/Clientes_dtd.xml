@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
-<!DOCTYPE Clientes SYSTEM "Clientes.dtd">
-<Clientes>
+<!DOCTYPE Clientes SYSTEM "Clientes_dtd.dtd">
+<Clientes
     <Sede codigo="A4569632">
 		<Dirección>Calle Atapuerca, 5, Planta Baja</Dirección>
 		<Empleado>Rodrigo Diaz de Vivar</Empleado>
