@@ -3,26 +3,26 @@
 	<xs:element name="Clientes">
 		<xs:complexType>
 			<xs:sequence>
-				<xs:element name="Sede">
+				<xs:element name="Sede" minOccurs="1" maxOccurs="unbounded">
 					<xs:complexType>
 						<xs:sequence>
-							<xs:element name="Dirección" type="xs:string" />
-							<xs:element name="Empleado" type="xs:string" />
-							<xs:element name="Fecha_alta" type="xs:string" />
-							<xs:element name="Descripción" type="xs:string" />
+							<xs:element name="Dirección" type="xs:string"/>
+							<xs:element name="Empleado" type="xs:string"/>
+							<xs:element name="Fecha_alta" type="xs:date"/>
 							<xs:element name="Cliente">
 								<xs:complexType>
 									<xs:sequence>
-										<xs:element name="Num_viviendas" type="xs:string" />
-										<xs:element name="Coste" type="xs:string" />
-										<xs:element name="Resumen" type="xs:string" />
-										<xs:element name="Plazo_alta" type="xs:string" />
+										<xs:element name="Descripción" type="xs:string"/>
+										<xs:element name="Num_viviendas" type="xs:int"/>
+										<xs:element name="Coste" type="xs:decimal"/>
+										<xs:element name="Resumen" type="xs:string"/>
+										<xs:element name="Plazo_alta" type="xs:date"/>
 									</xs:sequence>
-									<xs:attribute name="código" use="required" />
+									<xs:attribute name="código" use="required"/>
 								</xs:complexType>
 							</xs:element>
 						</xs:sequence>
-						<xs:attribute name="código" use="required" />
+						<xs:attribute name="código" use="required"/>
 					</xs:complexType>
 				</xs:element>
 			</xs:sequence>

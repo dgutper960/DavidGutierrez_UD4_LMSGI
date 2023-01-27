@@ -1,16 +1,111 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
-<Clientes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
- xsi:noNamespaceSchemaLocation="Clientes_xsd.xsd"
-    <Sede código="A4569632">
+<Clientes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Clientes_xsd.xsd">
+	<Sede código="A4569632">
 		<Dirección>Calle Atapuerca, 5, Planta Baja</Dirección>
 		<Empleado>Rodrigo Diaz de Vivar</Empleado>
-		<Fecha_alta>22/04/1997</Fecha_alta>
-		<Descripción>Lo que quiera que sea será</Descripción>
+		<Fecha_alta>1997-02-06</Fecha_alta>
 		<Cliente código="BGO-111">
+			<Descripción>Solvente</Descripción>
 	  		<Num_viviendas>4</Num_viviendas>
 	  		<Coste>900</Coste>
 	  		<Resumen>Las Casas Bonitas</Resumen>
-	  		<Plazo_alta>23/01/23</Plazo_alta>
+	  		<Plazo_alta>1998-01-23</Plazo_alta>
+		</Cliente>
+    </Sede>
+	<Sede código="B5269831">
+		<Dirección>Avenida del Marroquinero, 1. 1ºA</Dirección>
+		<Empleado>Ernesto Galvez</Empleado>
+		<Fecha_alta>2001-11-16</Fecha_alta>
+		<Cliente código="OSD-598">
+			<Descripción>Muy solvente</Descripción>
+	  		<Num_viviendas>2</Num_viviendas>
+	  		<Coste>2000</Coste>
+	  		<Resumen>El techo está en lo más alto del edificio</Resumen>
+	  		<Plazo_alta>2005-05-21</Plazo_alta>
+		</Cliente>
+    </Sede>
+	<Sede código="k5963215">
+		<Dirección>Avda de la Diputación, 21-b</Dirección>
+		<Empleado>Pérez Chacón Ana</Empleado>
+		<Fecha_alta>2013-09-20</Fecha_alta>
+		<Cliente código="OPS-951">
+			<Descripción>Nivel Lanister</Descripción>
+	  		<Num_viviendas>89826</Num_viviendas>
+	  		<Coste>2356899632215577895</Coste>
+	  		<Resumen>Castillos Estilo Medieval Fantastico</Resumen>
+	  		<Plazo_alta>2010-12-01</Plazo_alta>
+		</Cliente>
+    </Sede>
+	<Sede código="N8963256">
+		<Dirección>Paseo del Prado, 31</Dirección>
+		<Empleado>Pepe Vazquez Orellana</Empleado>
+		<Fecha_alta>1993-11-24</Fecha_alta>
+		<Cliente código="PPP-923">
+			<Descripción>Solvente</Descripción>
+	  		<Num_viviendas>4</Num_viviendas>
+	  		<Coste>1693621</Coste>
+	  		<Resumen>La de la puerta donde está la entrada</Resumen>
+	  		<Plazo_alta>1999-03-17</Plazo_alta>
+		</Cliente>
+    </Sede>
+	<Sede código="L8963256">
+		<Dirección>La Ladera, 11</Dirección>
+		<Empleado>Julio Mancera Lopez</Empleado>
+		<Fecha_alta>2012-06-06</Fecha_alta>
+		<Cliente código="XSD-987">
+			<Descripción>Codigo Amarillo</Descripción>
+	  		<Num_viviendas>89</Num_viviendas>
+	  		<Coste>9630011</Coste>
+	  		<Resumen>Los balcones dan a la calle</Resumen>
+	  		<Plazo_alta>1984-10-28</Plazo_alta>
+		</Cliente>
+    </Sede>
+	<Sede código="M8998691">
+		<Dirección>C. Jose Luís Sampedro, 19</Dirección>
+		<Empleado>Fernando Lopez Lopez</Empleado>
+		<Fecha_alta>1996-10-29</Fecha_alta>
+		<Cliente código="LLP-964">
+			<Descripción>Solvencia demostrada</Descripción>
+	  		<Num_viviendas>17</Num_viviendas>
+	  		<Coste>86652</Coste>
+	  		<Resumen>La entrada con macetas</Resumen>
+	  		<Plazo_alta>2023-12-01</Plazo_alta>
+		</Cliente>
+    </Sede>
+	<Sede código="G9632541">
+		<Dirección>C. Sara Montiel</Dirección>
+		<Empleado>Arturo Fernandez Ochoa</Empleado>
+		<Fecha_alta>1995-11-19</Fecha_alta>
+		<Cliente código="PPL-123">
+			<Descripción>Solvencia demostrada</Descripción>
+	  		<Num_viviendas>32</Num_viviendas>
+	  		<Coste>2000000</Coste>
+	  		<Resumen>Las cortinas son preciosas</Resumen>
+	  		<Plazo_alta>2023-09-26</Plazo_alta>
+		</Cliente>
+    </Sede>
+	<Sede código="S7852364">
+		<Dirección>Plaza Mercedes Sosa</Dirección>
+		<Empleado>Vanesa Sanchez Perales</Empleado>
+		<Fecha_alta>1990-10-10</Fecha_alta>
+		<Cliente código="SPD-889">
+			<Descripción>Excelente Solvencia</Descripción>
+	  		<Num_viviendas>77</Num_viviendas>
+	  		<Coste>8665296522</Coste>
+	  		<Resumen>Dueña del Barrio</Resumen>
+	  		<Plazo_alta>2023-12-12</Plazo_alta>
+		</Cliente>
+    </Sede>
+	<Sede código="X9352124">
+		<Dirección>C. Ramó y Cajal</Dirección>
+		<Empleado>Roberto Carlos Hernandez Romero</Empleado>
+		<Fecha_alta>1998-07-25</Fecha_alta>
+		<Cliente código="JSD-161">
+			<Descripción>Nivel Turronero</Descripción>
+	  		<Num_viviendas>1255</Num_viviendas>
+	  		<Coste>866</Coste>
+	  		<Resumen>Casas LowCost</Resumen>
+	  		<Plazo_alta>2023-11-10</Plazo_alta>
 		</Cliente>
     </Sede>
 </Clientes>
