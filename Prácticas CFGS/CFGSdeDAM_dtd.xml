@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE CFGS_DAM SYSTEM "CFGSdeDAM_dtd.dtd">
+<CFGS_DAM>
+    <Alumno>
+        <NIF>31735960p</NIF>
+        <Resultado>Apto</Resultado>
+        <Observaciones>Se sobrepuso a las dificultades</Observaciones>
+        <IP>192.158.1.38</IP>
+    </Alumno>
+    <Alumno>
+        <NIF>86963542h</NIF>
+        <Resultado>Apto</Resultado>
+        <Observaciones>Lo llevó todo al dia</Observaciones>
+        <MAC>00:1B:44:11:3A:B7</MAC>
+    </Alumno>
+    <Alumno>
+        <NIF>25639654K</NIF>
+        <Resultado>Apto</Resultado>
+        <Observaciones>Se recuperó en Junio</Observaciones>
+        <MAC>00:1A:34:21:5C:J7</MAC>
+    </Alumno>
+    <Alumno>
+        <NIF>96325641l</NIF>
+        <Resultado>Apto</Resultado>
+        <IP>192.158.1.38</IP>
+    </Alumno>
+    <Alumno>
+        <NIF>36542595j</NIF>
+        <Resultado>Apto</Resultado>
+        <MAC>00:2B:33:20:5C:K7</MAC>
+    </Alumno>
+    <Alumno>
+        <NIF>31456363b</NIF>
+        <Resultado>Apto</Resultado>
+        <IP>192.158.1.38</IP>
+    </Alumno>
+    <Alumno>
+        <NIF>36965421o</NIF>
+        <Resultado>Apto</Resultado>
+        <IP>111.498.45.208</IP>
+    </Alumno>
+    <Alumno>
+        <NIF>32569841d</NIF>
+        <Resultado>Apto</Resultado>
+        <MAC>11:1A:44:21:5C:J1</MAC>
+    </Alumno>
+    <Alumno>
+        <NIF>36963214v</NIF>
+        <Resultado>Apto</Resultado>
+        <IP>132.39.14.30</IP>
+    </Alumno>
+    <Alumno>
+        <NIF>36521472s</NIF>
+        <Resultado>Apto</Resultado>
+        <MAC>29:4A:98:39:7A:E7</MAC>
+    </Alumno>
+</CFGS_DAM>
