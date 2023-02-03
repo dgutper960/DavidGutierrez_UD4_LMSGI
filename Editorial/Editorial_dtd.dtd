@@ -1,0 +1,10 @@
+<!ELEMENT Cabecera (Empresa,Titulo,Descripcion,Fecha)>
+<!ELEMENT Empresa (#PCDATA)>
+<!ELEMENT Titulo (#PCDATA)>
+<!ELEMENT Descripcion (#PCDATA)>
+<!ELEMENT Fecha (#PCDATA)>
+<!ELEMENT Informe (Tabla)>
+<!ELEMENT Tabla (Region+)>
+<!ELEMENT Region (#PCDATA|Trimestre|Libros_vendidos)*>
+<!ELEMENT Trimestre (#PCDATA)>
+<!ELEMENT Libros_vendidos (#PCDATA)>
