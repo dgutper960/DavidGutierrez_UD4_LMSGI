@@ -1,42 +1,50 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE Cabecera SYSTEM "Editorial_dtd.dtd">
-<Cabecera
-  <Empresa>Ediciones Aranda</Empresa>
-  <Titulo>Informe regional del ventas</Titulo>
-  <Descripcion>Descripcion: informe de ventas para las regiones Norte, Centro y Sur</Descripcion>
-  <Fecha>Fecha: 30/12/2009</Fecha>
-</Cabecera>
+<!DOCTYPE Informe SYSTEM "Editorial_dtd.dtd">
 <Informe>
+  <Cabecera>
+    <Titulo>Ediciones Aranda</Titulo>
+    <Contenido>Informe regional del ventas</Contenido>
+    <Descripcion>Descripcion: informe de ventas para las regiones Norte, Centro y Sur</Descripcion>
+    <Fecha>Fecha: 30/12/2009</Fecha>
+  </Cabecera>
   <Tabla>
-    <Region>Norte
-      <Trimestre>1</Trimestre>
-      <Libros_vendidos>24000</Libros_vendidos>
-      <Trimestre>2</Trimestre>
-      <Libros_vendidos>38600</Libros_vendidos>
-      <Trimestre>3</Trimestre>
-      <Libros_vendidos>NO_INFO</Libros_vendidos>
-      <Trimestre>4</Trimestre>
-      <Libros_vendidos>NO_INFO</Libros_vendidos>
+    <Region>
+      <Norte>Norte
+        <TrimestreTabla>1</TrimestreTabla>
+        <Libros_vendidos>24000</Libros_vendidos>
+        <Trimestre_Tabla>2</Trimestre_Tabla>
+        <Libros_vendidos>38600</Libros_vendidos>
+        <Trimestre_Tabla>3</Trimestre_Tabla>
+        <Libros_vendidos>NO_INFO</Libros_vendidos>
+        <Trimestre_Tabla>4</Trimestre_Tabla>
+        <libros_vendidos>NO_INFO</libros_vendidos>
+      </Norte>
     </Region>
-    <Region>Centro
-      <Trimestre>1</Trimestre>
-      <Libros_vendidos>NO_INFO</Libros_vendidos>
-      <Trimestre>2</Trimestre>
-      <Libros_vendidos>1608</Libros_vendidos>
-      <Trimestre>3</Trimestre>
-      <Libros_vendidos>25000</Libros_vendidos>
-      <Trimestre>4</Trimestre>
-      <Libros_vendidos>29000</Libros_vendidos>
+    <Region>
+      <Centro>Centro
+        <Trimestre_Tabla>1</Trimestre_Tabla>
+        <Libros_vendidos>NO_INFO</Libros_vendidos>
+        <Trimestre_Tabla>2</Trimestre_Tabla>
+        <Libros_vendidos>16080</Libros_vendidos>
+        <Trimestre_Tabla>3</Trimestre_Tabla>
+        <Libros_vendidos>25000</Libros_vendidos>
+        <Trimestre_Tabla>4</Trimestre_Tabla>
+        <Libros_vendidos>29000</Libros_vendidos>
+      </Centro>
     </Region>
-    <Region>Sur
-      <Trimestre>1</Trimestre>
-      <Libros_vendidos>27000</Libros_vendidos>
-      <Trimestre>2</Trimestre>
-      <Libros_vendidos>31400</Libros_vendidos>
-      <Trimestre>3</Trimestre>
-      <Libros_vendidos>40100</Libros_vendidos>
-      <Trimestre>4</Trimestre>
-      <Libros_vendidos>30000</Libros_vendidos>
+    <Region>
+      <Sur>Sur
+        <Trimestre_Tabla>1</Trimestre_Tabla>
+        <Libros_vendidos>27000</Libros_vendidos>
+        <Trimestre_Tabla>2</Trimestre_Tabla>
+        <Libros_vendidos>31400</Libros_vendidos>
+        <Trimestre_Tabla>3</Trimestre_Tabla>
+        <Libros_vendidos>40100</Libros_vendidos>
+        <Trimestre_Tabla>4</Trimestre_Tabla>
+        <Libros_vendidos>30000</Libros_vendidos>
+      </Sur>
     </Region>
+    <Trimestre>Trimestre</Trimestre>
+    <Libros_vendidos>Libros vendidos</Libros_vendidos>
   </Tabla>
 </Informe>
